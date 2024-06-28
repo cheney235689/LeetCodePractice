@@ -1,0 +1,15 @@
+# Visual Studio
+
+*.sln
+x64/
+.vs
+**/x64/
+
+
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+*.exe
+*.pdb
+
