@@ -134,3 +134,10 @@ Thus, the result should be [1,0].
 - `1 <= digits.length <= 100`
 - `0 <= digits[i] <= 9`
 - `digits` does not contain any leading `0`'s.
+
+
+---
+
+
+ref : 
+LeetCode- Introduction to Data Structure :Array and String
