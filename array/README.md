@@ -50,6 +50,10 @@ Right sum = nums[1] + nums[2] = 1 + -1 = 0
 
 **Note:** This question is the same as 1991: [https://leetcode.com/problems/find-the-middle-index-in-array/](https://leetcode.com/problems/find-the-middle-index-in-array/)
 
+
+---
+
+
 ### LargestAtLeastTwice
 
 You are given an integer array `nums` where the largest integer is **unique**.
@@ -81,6 +85,10 @@ Explanation: 4 is less than twice the value of 3, so we return -1.
 - `2 <= nums.length <= 50`
 - `0 <= nums[i] <= 100`
 - The largest element in `nums` is unique.
+
+
+---
+
 
 ### PlusOne
 
