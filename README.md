@@ -1,3 +1,3 @@
 # LeetCodePractice
 
-This repository contains the code I practice on LeetCode.
+This repository contains the c++ code I practice on LeetCode.
