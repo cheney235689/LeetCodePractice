@@ -10,13 +10,21 @@ public:
         if (mat.empty() || mat[0].empty()) {
             return {};
         }
-        int m = mat.size(), n = mat[0].size(), r = 0, c = 0, k = 0;
+        int m = mat.size(), n = mat[0].size(), r = 0, c = 0, k = 0; //row , col ,
         std::vector<int> res(m * n);
+
+        /*the "¡ú" and "¡ù" direction , ¡@*/
         std::vector<std::vector<int>> dirs{ {-1,1}, {1,-1} };
+
         for (int i = 0; i < m * n; ++i) {
+
             res[i] = mat[r][c];
+
+            
             r += dirs[k][0];
             c += dirs[k][1];
+
+            /*If the move is out of the range of the array*/
             if (r >= m) {
                 r = m - 1; c += 2; k = 1 - k;
             }
