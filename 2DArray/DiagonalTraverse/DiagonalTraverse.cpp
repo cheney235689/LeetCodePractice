@@ -24,7 +24,7 @@ public:
             r += dirs[k][0];
             c += dirs[k][1];
 
-            /*If the move is out of the range of the array*/
+            /*If the move is out of the range of the array*/ 
             if (r >= m) {
                 r = m - 1; c += 2; k = 1 - k;
             }
